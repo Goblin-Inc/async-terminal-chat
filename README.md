@@ -1,21 +1,23 @@
 # Async Terminal Chat
 
-Клиент-серверный консольный чат на **Python (`asyncio`, `sqlite3`)** с регистрацией и авторизацией пользователей, хранением учётных записей в базе данных и автоматической ANSI-раскраской ников.
+> 🌐 **Language:** **English** | [Русский (README_Ru.md)](README_Ru.md)
 
-## ✨ Возможности
-- ⚡ **Асинхронное ядро (`asyncio`)** — одновременная обработка множества подключений без блокировок (`server/core_server.py`).
-- 🔐 **Авторизация через SQLite (`server/auth_db.py`)** — регистрация и проверка пользователей при входе в чат.
-- 🎨 **Цветной TUI в терминале** — автоматическое назначение уникального ANSI-цвета каждому участнику и разделение потоков ввода/вывода (`client/core_client.py`).
+A multi-user client-server terminal chat built with **Python (`asyncio`, `sqlite3`)**, featuring user registration and authentication, SQLite account storage, and automatic ANSI nickname coloring.
 
-## 🚀 Запуск
+## ✨ Features
+- ⚡ **Asynchronous Core (`asyncio`)** — handles multiple concurrent client connections without blocking (`server/core_server.py`).
+- 🔐 **SQLite Authentication (`server/auth_db.py`)** — user registration and credential verification upon joining the chat.
+- 🎨 **Colored Terminal UI** — automatically assigns a unique ANSI color to each participant and separates input/output streams cleanly (`client/core_client.py`).
 
-### Сервер
+## 🚀 Usage
+
+### Server
 ```bash
 cd server
 python3 core_server.py
 ```
 
-### Клиент
+### Client
 ```bash
 cd client
 python3 core_client.py
