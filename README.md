@@ -17,5 +17,11 @@ cd server
 python3 core_server.py
 ```
 
+### Client
+```bash
+cd client
+python3 core_client.py
+```
+
 ## 📄 License
 MIT © [Goblin-Inc](https://github.com/Goblin-Inc)
