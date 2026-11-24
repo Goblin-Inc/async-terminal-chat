@@ -19,9 +19,3 @@ python3 core_server.py
 
 ## 📄 License
 MIT © [Goblin-Inc](https://github.com/Goblin-Inc)
-
-### Client
-```bash
-cd client
-python3 core_client.py
-```
